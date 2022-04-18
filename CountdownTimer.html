@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <audio id="alarm_audio"></audio>
+        <main class="style font">
+            <div class="style">
+                <p id="hour">00</p>
+                <p class="semicolon">:</p>
+                <p id="minute">25</p>
+                <p class="semicolon">:</p>
+                <p id="second">00</p>
+            </div>
+            <div class="style">
+                <button class="button" id="start">Start</button>
+                <button class="button" id="reset" >Reset</button>
+            </div>
+        </main>
+        <footer class="style" id="footer">
+            <div>
+                <p class="font">Timer</p>
+            </div>
+            <div class="style end">
+                <div class="last">
+                    <input class="font1 timeEdit" id="setHour"   type="number" min="0" max="59" placeholder="00">
+                    <p class="font1 ">:</p>
+                    <input class="font1 timeEdit" id="setMinute" type="number" min="0" max="59" placeholder="00">
+                    <p class="font1">:</p>
+                    <input class="font1 timeEdit" id="setSecond" type="number" min="0" max="59" placeholder="00">
+                </div>
+                <div>
+                    <button id="edit">Edit</button>
+                </div>
+            </div>
+        </footer>
+        <script src="./CountdownTimer.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,105 @@
+
+.style{
+    margin:auto;
+    display: flex;
+    align-items: center;
+   
+  
+}
+body{
+    width:900px;
+    margin:auto;
+    margin-top:300px;
+    background-color:grey;
+    
+}
+.button{
+    font-size:30px; 
+    border-radius: 50%;  
+    margin:5px;
+    width:125px;
+    height: 125px;
+    font-family: 'Oritron',sans-serif;
+}
+.font{
+    font-size:75px;
+}
+.last{
+    margin:auto;
+    display: flex;
+    
+    
+    font-size:16px;
+    border: 3px solid red;
+    box-shadow: 0 0 10px 10px;
+    background-color:#FFEFD5  ;
+    color: black;
+    height: 48px;
+    border-radius: 7%;  
+}
+input{
+border-width:0px;
+margin-top: 26px;
+border:none;
+outline:none;
+padding:5px;
+width:30px;
+ background-color:#FFEFD5  ;
+ height: 20px;
+ 
+ 
+}
+main{
+    color: black;
+    font-size: 90px ;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 0 10px 10px;
+    background-color:#FFEFD5;
+    border-radius: 1%;  
+    border: 3px solid red;
+    margin-top: 10px;
+ 
+}
+
+#edit{
+    margin: auto;
+    
+    font-size:25px;
+    border:none;
+    outline:none;
+    width: 76px;
+    margin-top: 4px;
+    margin-left:30px;
+    border-radius: 7%;  
+    border: 3px solid red;
+    box-shadow: 0 0 10px 10px;
+    background-color:#FFEFD5  ;
+    
+    height: 49px;
+}
+.font1{
+    font-size:25px;
+    color:black;
+    margin-top: 11px;
+    
+}
+#reset{
+    background-color: red;
+}
+#start{
+    background-color: #F4A460;
+}
+
+#footer{
+margin-left: 0px;
+width: 500px;
+}
+.timeEdit{
+    width: 50px;
+    font-size:31px;
+}
+.end{
+    margin-left: 30px;
+
+}
